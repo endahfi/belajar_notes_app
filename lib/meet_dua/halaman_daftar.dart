@@ -90,7 +90,7 @@ class _HalamanDaftarState extends State<HalamanDaftar> {
         itemBuilder: (context, i) {
           return Card(
             child: ListTile(
-              leading: const Icon(Icons.note),
+              // leading: Icon(Icons.note),
               title: Text(catatan[i].judul),
               subtitle: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
